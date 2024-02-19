@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 const Problem2 = () => {
 
@@ -9,8 +10,8 @@ const Problem2 = () => {
                 <h4 className='text-center text-uppercase mb-5'>Problem-2</h4>
                 
                 <div className="d-flex justify-content-center gap-3">
-                <button className="btn btn-lg btn-outline-primary" type="button" >All Contacts</button>
-                <button className="btn btn-lg btn-outline-warning" type="button" >US Contacts</button>
+                    <NavLink to='/modal-a' className="btn btn-lg btn-outline-primary" type="button" >All Contacts</NavLink>
+                    <NavLink to='/modal-b' className="btn btn-lg btn-outline-warning" type="button" >US Contacts</NavLink>
                 </div>
                 
             </div>
